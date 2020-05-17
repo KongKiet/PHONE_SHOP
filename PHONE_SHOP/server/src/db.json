@@ -1,0 +1,60 @@
+{
+  "workList": [
+    {
+      "id": "afd731c8-64f3-4c5c-a72f-724cb7fb3db9",
+      "name": "iPhone 6s Plus",
+      "price": "300",
+      "imageUrl": "https://24hstore.vn/images/products/2020/04/19/large/iphone-6s-plus-rose-gold_1587283352_1.jpg",
+      "status": true
+    },
+    {
+      "id": "8af53439-14ae-446e-a1f3-96122a9bf4c6",
+      "name": "iPhone 7 Plus",
+      "price": "500",
+      "imageUrl": "https://24hstore.vn/images/products/2020/04/19/large/iphone-7-plus--jet-black_1587272216_1.jpg",
+      "status": true
+    },
+    {
+      "id": "0e45f22e-cc9e-45b5-87cb-49d9c3f23832",
+      "name": "iPhone SE 2020",
+      "price": "1000",
+      "imageUrl": "https://24hstore.vn/images/products/2020/04/17/large/iphone-se-2020-black.jpg",
+      "status": true
+    },
+    {
+      "id": "4251aef8-13ea-468d-b1b3-715641a06dcf",
+      "name": "iPhone 11",
+      "price": "1900",
+      "imageUrl": "https://cdn1.viettelstore.vn/images/Product/ProductImage/medium/2095543878.png",
+      "status": true
+    },
+    {
+      "id": "1a080e39-0130-4794-84eb-e7e0c620d114",
+      "name": "Samsung Galaxy A31",
+      "price": "650",
+      "imageUrl": "https://cdn.tgdd.vn/Products/Images/42/216174/samsung-galaxy-a31-400x460-400x460.png",
+      "status": true
+    },
+    {
+      "id": "6498c053-b745-4e84-bae5-0722b04a49af",
+      "name": "Samsung Galaxy Note 10 Plus",
+      "price": "1350",
+      "imageUrl": "https://clickbuy.com.vn/uploads/2019/07/thumb_Note10_2.jpg",
+      "status": true
+    },
+    {
+      "id": "276045a3-88db-4ab5-9359-fbe3a20b3342",
+      "name": "Samsung Galaxy A50",
+      "price": "650",
+      "imageUrl": "https://cdn.tgdd.vn/Products/Images/42/196963/samsung-galaxy-a50-blue-400x460.png",
+      "status": true
+    },
+    {
+      "id": "8a083ef3-ccef-4fa9-9abb-d1d52f6c8d23",
+      "name": "BPhone 3",
+      "price": "590",
+      "imageUrl": "https://clickbuy.com.vn/uploads/2019/04/bphone-3-den.png",
+      "status": true
+    }
+  ]
+}
