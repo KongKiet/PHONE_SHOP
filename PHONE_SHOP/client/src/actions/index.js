@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export const listAllRequest = () => {
     return(dispatch) => {
-        axios.get('http://localhost:3001/productList').then(res => {
+        axios.get('https://shopkoki-db.herokuapp.com/productList').then(res => {
             dispatch(listAll(res.data))
         });
     }
@@ -18,7 +18,7 @@ export const listAllRequest = () => {
 
 export const addItemRequest = (item) => {
     return dispatch => {
-        axios.post('http://localhost:3001/productList', item).then(res => {
+        axios.post('https://shopkoki-db.herokuapp.com/productList', item).then(res => {
             dispatch(addItem(res.data))
         });
     }
@@ -33,7 +33,7 @@ export const addItemRequest = (item) => {
  
 export const deleteItemRequest = (id) => {
     return dispatch => {
-        axios.delete(`http://localhost:3001/productList/${id}`).then(res => {
+        axios.delete(`https://shopkoki-db.herokuapp.com/productList/${id}`).then(res => {
             dispatch(deleteItem(id))
         })
     }
@@ -54,7 +54,7 @@ export const deleteItemRequest = (id) => {
 
  export const updateStatusRequest = (id, item) => {
      return dispatch => {
-        axios.put(`http://localhost:3001/productList/${id}`, item).then(res => {
+        axios.put(`https://shopkoki-db.herokuapp.com/productList/${id}`, item).then(res => {
             dispatch(updateStatus(id))
         })
      }
@@ -82,7 +82,7 @@ export const deleteItemRequest = (id) => {
  
  export const updateItemRequest = (id, item) => {
      return dispatch => {
-        axios.put(`http://localhost:3001/productList/${id}`, item).then(res => {
+        axios.put(`https://shopkoki-db.herokuapp.com/productList/${id}`, item).then(res => {
             dispatch(updateItem(id, item))
         })
      }
